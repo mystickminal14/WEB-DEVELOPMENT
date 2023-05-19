@@ -1,0 +1,339 @@
+body {
+    background: linear-gradient(to right, #000000, #555555);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+
+
+#man {
+    position: sticky;
+    top: 20px;
+    background-image: linear-gradient(to bottom, black, gray);
+}
+
+#head {
+
+    font-family: "League Gothic";
+    color: white;
+
+    font-size: 70px;
+    margin-top: 0%;
+    margin-left: 50px;
+
+
+    float: left;
+}
+
+#s1 {
+    color: yellow;
+}
+
+#s2 {
+    letter-spacing: 4px;
+}
+
+#pic1 {
+
+    float: right;
+
+    margin-top: 12px;
+    margin-right: 45px;
+
+
+    animation: rotation 5s infinite ease-in-out;
+
+
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(1500deg);
+    }
+
+}
+
+#pic2 {
+    border: 4px solid white;
+    border-radius: 20px;
+    margin-top: -20px;
+    width: 1040px;
+    float: right;
+    clear: both;
+    margin-right: 45px;
+
+}
+
+#pic3 {
+    width: 230px;
+    margin-left: 100px;
+    float: left;
+    margin-top: -430px;
+    clear: both;
+}
+
+.frow img {
+    border: 4px solid white;
+    border-radius: 1px;
+    margin-left: 70px;
+    margin-top: 100px;
+
+
+}
+.view{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    justify-content: center;
+    justify-content:space-around;
+}
+.view h2{
+    margin-left:65px;
+   
+    font-family: "League Gothic";
+    font-size:60px;
+    width:280px;
+    color:white;
+    background: #545454;
+   padding:5px;
+  
+   border-radius:40px;
+    text-align:center;
+}
+.view span{
+    color:yellow;
+}
+.view #head2{
+    margin-left:35px;
+}
+.srow img{
+    border: 4px solid white;
+    border-radius: 1px;
+    margin-left: 70px;
+    margin-top: 100px;
+    height:610px;
+     width:390px;
+
+}
+.srow #dbs{
+    margin-left:80px;
+}
+.srow #opiece{
+    margin-left:90px;
+}
+
+.second-view{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    justify-content: center;
+    justify-content:space-around;
+}
+.second-view h2{
+    margin-left:65px;
+   
+    font-family: "League Gothic";
+    font-size:60px;
+    width:280px;
+    color:white;
+    background: #545454;
+   padding:5px;
+  
+   border-radius:40px;
+    text-align:center;
+}
+.second-view span{
+    color:yellow;
+}
+.second-view #v2{
+    margin-left:35px;
+}
+.Trow img{
+    border: 4px solid white;
+    border-radius: 1px;
+    margin-left: 70px;
+    margin-top: 100px;
+    height:610px;
+     width:390px;
+
+}
+.Trow #ds{
+    margin-left:80px;
+}
+.Trow #aot{
+    margin-left:80px;
+}
+
+
+.third-view{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    justify-content: center;
+    justify-content:space-around;
+}
+.third-view h2{
+    margin-left:65px;
+   
+    font-family: "League Gothic";
+    font-size:60px;
+    width:280px;
+    color:white;
+    background: #545454;
+   padding:5px;
+  
+   border-radius:40px;
+    text-align:center;
+}
+.third-view span{
+    color:yellow;
+}
+.third-view #v6{
+    margin-left:35px;
+}
+
+.Frow img{
+    border: 4px solid white;
+    border-radius: 1px;
+    margin-left: 70px;
+    margin-top: 100px;
+    height:610px;
+     width:390px;
+
+}
+.Frow #ds{
+    margin-left:80px;
+}
+.Frow #aot{
+    margin-left:80px;
+}
+
+
+.fourth-view{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    justify-content: center;
+    justify-content:space-around;
+}
+.fourth-view h2{
+    margin-left:5px;
+   
+    font-family: "League Gothic";
+    font-size:60px;
+    width:280px;
+    color:white;
+    background: #545454;
+   padding:5px;
+  
+   border-radius:40px;
+    text-align:center;
+}
+.fourth-view span{
+    color:yellow;
+}
+
+.fourth-view #v10{
+    margin-left:30px;
+}
+.fourth-view h2 #v11{
+    margin-left:30px;
+}
+.fivrow img {
+    border: 4px solid white;
+    border-radius: 1px;
+    margin-left: 70px;
+    margin-top: 100px;
+    height:610px;
+     width:390px;
+}
+.fifth-view{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    justify-content: center;
+    justify-content:space-around;
+}
+.fifth-view h2{
+    margin-left:65px;
+   
+    font-family: "League Gothic";
+    font-size:60px;
+    width:280px;
+    color:white;
+    background: #545454;
+   padding:5px;
+  
+   border-radius:40px;
+    text-align:center;
+}
+.fifth-view span{
+    color:yellow;
+}
+.fifth-view h2 #f13{
+    margin-left:35px;
+}
+.sixrow img {
+    border: 4px solid white;
+    border-radius: 1px;
+    margin-left: 70px;
+    margin-top: 100px;
+    height:610px;
+     width:390px;
+}
+.siz-view{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    justify-content: left;
+  
+}
+.siz-view h2{
+    margin-left:105px;
+   
+    font-family: "League Gothic";
+    font-size:60px;
+    width:280px;
+    color:white;
+    background: #545454;
+   padding:5px;
+  
+   border-radius:40px;
+    text-align:center;
+}
+.siz-view span{
+    color:yellow;
+}
+.siz-view  #v15{
+    margin-left:200px;
+}
+
+footer{
+background:darkslategray;
+height:400px;
+
+}
+
+.fot{
+    padding-top:50px;
+    padding-left:250px;
+}
+.fot #text1{
+    margin-left:13px;
+    width:230px;
+    height:34px;
+    border:2px solid white;
+    border-radius:5px;
+}
+.fot #gg4{
+    color:lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
