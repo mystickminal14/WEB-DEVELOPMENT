@@ -1,0 +1,476 @@
+body {
+    background-color:#F5F5EF;
+
+}
+
+.container {
+    margin: -8px;
+}
+
+.headerSection {
+    font-family: "Kaushan Script";
+    display: flex;
+
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.headerSection #kaiHeader {
+    color: #D9D9D9;
+    font-size: 80px;
+
+    margin-top: -10px;
+
+
+}
+
+.imgContainer {
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+
+}
+
+.headerSection .menubar a {
+    color: #D9D9D9;
+    font-size: 30px;
+    text-decoration: none;
+
+
+}
+
+.headerSection .menubar a:hover {
+    color: black;
+
+}
+
+.headerSection .menubar #produts {
+
+    padding-left: 30px;
+
+}
+
+.headerSection .menubar #about {
+
+    padding-left: 30px;
+
+}
+
+.headerSection .menubar #Contact {
+
+    padding-left: 30px;
+
+}
+
+
+.container #cookieBackground {
+
+    width: 100%;
+    height: 4%;
+
+
+}
+
+.centerPext {
+    margin-top: -50px;
+
+    width: 600px;
+    height: 600px;
+    margin-left: 32%;
+
+}
+
+.centerPext #lineText {
+    font-family: aleo;
+    color: #F8F7F2;
+    font-size: 27px;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.centerPext #line3 {
+    font-family: aleo;
+    color: #F8F7F2;
+    font-size: 27px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.centerPext #tag1 {
+    Font-family: league gothic;
+    text-align: center;
+    letter-spacing: 12px;
+    font-size: 95px;
+    color: #F8F7F2;
+    margin-top: -10px;
+}
+
+.centerPext #tag2 {
+    Font-family: league gothic;
+    text-align: center;
+    color: #F8F7F2;
+    letter-spacing: 12px;
+    margin-top: -65px;
+    font-size: 95px;
+}
+
+.container2 {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container2 .flavours {
+    width: 260px;
+    margin-top: 60px;
+    margin-left: 140px;
+
+}
+
+#flavourHeader {
+    font-family: "Hammersmith one";
+}
+
+#mouth {
+    text-align: center;
+
+    font-family: "Hammersmith one";
+    font-size: 20px;
+
+}
+
+.frag {
+    margin-left: 40px;
+
+    margin-top: 80px;
+}
+
+.frag2 {
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+#mouth2 {
+    text-align: center;
+
+    font-family: "Hammersmith one";
+    font-size: 20px;
+
+
+}
+
+.frag3 {
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+#mouth3 {
+    text-align: center;
+
+    font-family: "Hammersmith one";
+    font-size: 20px;
+
+}
+
+.nextPage {
+    margin-left: -5px;
+
+    margin-top: 10%;
+
+}
+
+.nextPage .dine {
+    position: absolute;
+    z-index: -1;
+
+}
+
+.Lune {
+    margin-top: 80px;
+    ;
+    color: #F8F7F2;
+    margin-left: 550px;
+
+
+
+}
+
+.nextPage .Lune #m1 {
+    margin-left: 10px;
+    letter-spacing: 5px;
+
+    font-family: "Hammersmith one";
+    font-size: 40px;
+
+
+}
+
+.nextPage .Lune #m2 {
+    font-family: "Hammersmith one";
+    font-size: 100px;
+    letter-spacing: 10px;
+    margin-top: 80px;
+    margin-left: -222px;
+}
+
+.nextPage .Lune #m2 #spa {
+    color: darkslategray;
+}
+
+.nextPage .Lune #m3m {
+    color: black;
+    margin-left: 150px;
+    background: #FFFFFF;
+    font-family: "Hammersmith one";
+    width: 150px;
+    font-size: 18px;
+
+    height: 50px;
+
+}
+
+.Fling {
+    margin-top: 30%;
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: 50px;
+    gap: 3em;
+}
+
+.Fling #ss1 {
+    width: 340px;
+
+
+}
+
+.Fling #ss2 {
+    margin-top: 200px;
+    width: 320px;
+    height: 380px;
+
+}
+
+.Fling .frenchFling {
+    margin-top: 75px;
+    margin-left:35px;
+    width: 500px;
+}
+
+.Fling .frenchFling #afling {
+    font-family: "Hammersmith one";
+    font-size: 48px;
+    letter-spacing: 1.5px;
+
+}
+
+.Fling .frenchFling #paraFling {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+.Fling .frenchFling #btnbook {
+    margin-top:172px;
+    width:180px;
+    height:50px;
+    background:black;
+    color:#D9D9D9;
+    font-family: "Hammersmith one";
+    font-size: 20px;
+}
+.fourFlavor #bite{
+margin-top:200px;
+font-family: "Hammersmith one";
+text-align: center;
+font-size:40px;
+letter-spacing:1px;
+}
+.items{
+    margin-top:100px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:3em;
+}
+.items .yummy #yum{
+    width:400px;
+    border-style:double;
+    border-width:8px;
+   border-radius: 3px;
+    
+}
+.items .mouthwatering #cok{
+    
+    border-style:double;
+    border-width:8px;
+    border-radius: 3px;
+    
+}
+.items .pies #pieimage{
+ 
+    border-style:double;
+    
+    border-width:8px;
+    border-radius: 3px;
+    
+}
+.items .yummy #yumcook{
+    font-family: "Hammersmith one";
+text-align: center;
+
+
+}
+.items .yummy #desc1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:22px;
+    text-align: center;
+}
+.items .mouthwatering #cakes{
+    font-family: "Hammersmith one";
+    text-align: center;
+    font-size:40px;
+}
+.items .mouthwatering #desc2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:22px;
+    text-align: center;
+}
+.items .pies #hpies{
+    font-family: "Hammersmith one";
+    text-align: center;
+    font-size:40px;
+}
+.items .pies #desc3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:22px;
+    text-align: center;
+}
+.love{
+    background: rgb(32, 7, 7);
+    color:#D9D9D9;
+    height:800px;
+    margin-top:120px;
+    margin-left:-10px;
+  
+ 
+}
+.love .lover{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.love #lunelove{
+    padding:80px;
+    letter-spacing:3px;
+    font-size:45px;
+    text-align: center;
+    font-family: "Hammersmith one";
+   
+}
+.love .lover .transport{
+    
+    width:420px;
+}
+.love .lover .transport #q1{
+    font-size:50px;
+}
+.love .lover .transport #q2{
+    font-family: "Hammersmith one";
+    letter-spacing:3px;
+}
+.love .lover .transport #q3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    letter-spacing:1px;
+}
+.love .lover .transport #q3 #teddy{
+    font-family: "Hammersmith one";
+   
+}
+
+
+
+
+.love .lover .bistro{
+    width:420px;
+    margin-left:60px;
+}
+.love .lover .bistro #r1{
+    font-size:50px;
+}
+.love .lover .bistro #r2{
+    font-family: "Hammersmith one";
+    letter-spacing:3px;
+}
+.love .lover .bistro #bis{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    letter-spacing:1px;
+}
+.love .lover .bistro #bis #dani{
+    font-family: "Hammersmith one";
+   
+}
+
+
+.love .lover .paris{
+    width:420px;
+    margin-left:60px;
+}
+.love .lover .paris #s1{
+    font-size:50px;
+}
+.love .lover .paris #s2{
+    font-family: "Hammersmith one";
+    letter-spacing:3px;
+}
+.love .lover .paris #calry{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    letter-spacing:1px;
+}
+.love .lover .paris #calry #frank{
+    font-family: "Hammersmith one";
+   
+}
+.visitus{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:-18px;
+    justify-content: space-evenly;
+    height:800px;
+}
+.visitus .vis {
+    margin-left:-250px;
+   
+}
+.visitus .soon{
+    margin-top:78px;
+  margin-left:-180px;
+}
+.visitus .soon #soonhead{
+    font-family: "hammersmith one";
+    font-size:50px;
+  
+   
+  }
+  .visitus .soon h1{
+    font-family: "hammersmith one";
+    font-size:30px;
+  
+   
+  }
+  .visitus .soon #pn{
+    margin-top:100px;
+  }
+  .visitus .soon #email{
+    margin-top:50px;
+  }
+  .visitus .soon #rest{
+    margin-top:50px;
+  }
+  .visitus .soon p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
