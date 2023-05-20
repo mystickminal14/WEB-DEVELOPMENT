@@ -1,0 +1,418 @@
+
+body{
+    background:#F5F5EF;
+ 
+}
+.mainPage{
+    display:flex;
+}
+.mainPage .cafeHead {
+    background: #D6C39D;
+    height: 750px;
+    width: 300px;
+    margin-top: -10px;
+    margin-left: -10px;
+    display: flex;
+position:fixed;
+
+    flex-direction: column;
+
+}
+
+.mainPage .cafeHead #shasha {
+    width: 250px;
+    margin-left: 22px;
+
+
+}
+
+.mainPage .cafeHead button {
+    margin-left: 74px;
+    font-size: 18px;
+    font-family: "Hammersmith One";
+    width: 140px;
+    height: 40px;
+    background: darkgray;
+    color: darkslategrey;
+    box-shadow: 8px 6px 5px #666666;
+}
+
+.mainPage .cafeHead button:hover {
+    background: lightgray;
+    color: black;
+}
+
+.mainPage .cafeHead .menuNav {
+    margin-top: 40px;
+    margin-left: 110px;
+    align-items: center;
+}
+
+.mainPage .cafeHead .menuNav a {
+    line-height: 48px;
+    font-size: 23px;
+    text-decoration: none;
+    font-family: "hammersmith one";
+    color: rgb(106, 32, 32);
+    position: relative;
+    display: inline-block;
+}
+
+.mainPage .cafeHead .menuNav a:hover {
+
+    color: white;
+    text-shadow: 5px 5px 5px #666666;
+   
+
+}
+.mainPage .cafeHead .menuNav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 3px;
+    background-color:  rgb(101, 67, 33);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  .mainPage .cafeHead .menuNav a:hover::after {
+    visibility: visible;
+    transform: scaleX(1.1);
+  }
+
+
+.mainPage .cafeHead .menuNav #m5 {
+    margin-left: -24px;
+}
+.mainPage .cafeHead .menuNav #m6 {
+    margin-left: -7px;
+}
+
+
+.mainPage .cafeHead .menuNav #m2 {
+    margin-left: -21px;
+}
+
+.mainPage .second {
+    display:flex;
+    margin-top:80px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left:250px;
+}
+.mainPage .second .img{
+    position:absolute;
+    z-index:-1;
+ top: 0px;
+}
+.mainPage .second .img #im{
+    width:100%;
+    
+}
+.mainPage .second .cont{
+  margin-left:390px;
+  margin-top:-120px;
+    
+}
+.mainPage .second .cont #shas{
+    color:rgb(234, 233, 233);
+    font-family:"kaushan script";
+    font-size:80px;
+}
+.mainPage .second .cont #pp{
+    color:white;
+    font-family:"Cookie";
+font-size: 60px;
+margin-left:-26px;
+  
+}
+.mainPage .second .cont #pp span{
+    color:black;
+}
+.kaka{
+    margin-top:440px;
+    margin-left:320px;
+    display:flex;
+    flex-wrap:wrap;
+justify-content: space-around;
+}
+.kaka .specials{
+    width:310px;
+    margin-left:56px;
+}
+.kaka .specials #headspec{
+    font-family: "hammersmith one";
+    font-size:32px;
+}
+.kaka .specials #sp {
+    font-size:17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.kaka #ka{
+    border:0px solid black;
+    border-radius: 10PX;
+    box-shadow:7px 7px 6px darkslategray;
+    margin-left:80px;
+}
+.mor{
+    margin-left:340px;
+    margin-top:140px;
+    height:700px;
+}
+.mor #avg{
+    font-family: "hammersmith one";
+    font-size:26px;
+    margin-left:70px;
+    
+}
+.mor .imagess{
+    margin-top:80px;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap:wrap;
+}
+.mor .imagess .one #s1{
+    border:5px solid rgb(93, 29, 29);
+    border-radius:15px;
+}
+.mor .imagess .two #s2{
+    border:5px solid rgb(93, 29, 29);
+    border-radius:15px;
+}
+.mor .imagess .three #s3{
+    border:5px solid rgb(93, 29, 29);
+    border-radius:15px;
+}
+.mor .imagess .one #sh2{
+    font-family:"hammersmith one";
+    font-size:20px;
+    text-align:center;
+}
+.mor .imagess .two {
+    margin-top:12px;
+}
+.mor .imagess .two #sh3{
+    font-family:"hammersmith one";
+    font-size:20px;
+    text-align:center;
+}
+.mor .imagess .three #sh4{
+    font-family:"hammersmith one";
+    font-size:20px;
+    text-align:center;
+}
+.scrollimg {
+    height:600px;
+    margin-left:300px;
+    display:flex;
+    overflow:auto;
+    scroll-snap-type: x mandatory;
+    padding:2px;
+    gap:12px;
+    scroll-padding:10px;
+}
+.scrollimg  #c1{
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+ 
+}
+
+.BREAK{
+    margin-top:80px;
+    margin-left:340px;
+    display:flex;
+    flex-wrap:wrap;
+    height:635px;
+    justify-content: space-around;
+}
+.BREAK .fast{
+    width:420px;
+}
+.BREAK .fast #z1{
+    font-family:"Bebas Neue";
+    letter-spacing: 2px;
+    font-size:40px;
+}
+
+.BREAK .fast #brn {
+   margin-top:35px;
+    font-size: 18px;
+    font-family: "Hammersmith One";
+    width: 180px;
+    height: 40px;
+    background:lightblue;
+    color: black;
+    margin-left:20px;
+    box-shadow: -3px -2px 5px #666666;
+}
+.BREAK .fast #brn:hover {
+    background: rgb(62, 47, 47);
+    color: lightgoldenrodyellow;
+}
+.BREAK .fast #z2,ul{
+    font-size:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.BREAK .lk{
+    width:230px;
+    height:280px;
+    margin-left:-150px;
+    border:5px solid black;
+    border-radius:10px;
+    background:gray;
+}
+.BREAK .pk{
+    width:230px;
+    height:280px;
+    border:5px solid black;
+    border-radius:10px;
+    margin-top:220px;
+    margin-left:-150px;
+    background:gray;
+}
+.box{
+    margin-left:320px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    height:450px;
+}
+.box .box1{
+    background:darkgray;
+    width:320px;
+    height:350px;
+}
+.box .box1 img{
+    border:4px solid gray;
+    border-radius: 13px;
+}
+.box .box2{
+    background:darkgray;
+    width:320px;
+   
+    height:350px;
+}
+.box .box2 img{
+    border:4px solid gray;
+    border-radius: 13px;
+}
+.box .box2 h2{
+margin-left:90px;
+}
+
+.box .box3{
+    background:darkgray;
+    width:320px;
+   
+    height:350px;
+}
+.box .box3 img{
+    border:4px solid gray;
+    border-radius: 13px;
+}
+.box h2{
+font-family: "hammersmith one";
+margin-left:55px;
+position:relative;
+display:inline-block;
+}
+.box h2:hover{
+ 
+    text-shadow: 5px 5px 5px gray;
+
+}
+
+.box h2::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 5px;
+    background-color:  brown;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  .box h2:hover::after {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+.n #num{
+margin-left:780px;   
+ 
+         font-size: 18px;
+         font-family: "Hammersmith One";
+         width: 180px;
+         height: 40px;
+         background:lightblue;
+         color: black;
+        
+         box-shadow: -3px -2px 5px #666666;
+     }
+   .n #num:hover {
+         background: rgb(62, 47, 47);
+         color: lightgoldenrodyellow;
+     }
+     .foot{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        background:#1F2B21;
+        margin-left:290px;
+        margin-right:-20px;
+        height:500px;
+        padding:100px;
+        
+     }
+     .foot .dinein{
+        margin-left:2px;
+     }
+     .foot .dinein, .Take, .OP{
+        width:300px;
+     }
+     .foot h2{
+        font-family:"hammersmith one";
+        color:#F5F5EF;
+     }
+     .foot p{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:#D6C39D;
+        font-size:18px;
+     }
+     .dl{
+        justify-content: center;
+        margin-left:790px;
+        width:350px;
+        margin-top:-300px;
+     }
+     .dl img{
+        width:200px;
+
+     }
+     .dl .ico{
+ color:aqua;
+ display:flex;
+ 
+ flex-wrap:wrap;
+     }
+     .dl .ico .fa-twitter{
+        margin-left:30px;
+     }
+     
+     .dl .ico .fa-facebook{
+        margin-left:20px;
+     }
+     .dl .ico .fa-instagram{
+        margin-left:20px;
+     }
+     
+
+
+
+
